@@ -9,6 +9,7 @@ a {
     color: #7b5244;
 }
 
+
 .container {
     width: 80%;
     margin: auto;
@@ -88,8 +89,8 @@ header nav ul li.dropdown {
 
 header nav ul li .dropdown-menu {
     position: absolute;
-    width: 450px;
-    border: 2px solid #7b5244;
+    width: 430px;
+    border: 1px solid #7b5244;
     background-color: #fff;
     padding: 15px;
     margin-top: 5px;
@@ -106,21 +107,17 @@ header nav ul li .dropdown-menu {
 
 }
 
-header nav ul li.dropdown .dropdown-menu ul {
+table{
     text-align: left;
-    display: table-cell;
+    color: #7b5244;
 }
-
-header nav ul li.dropdown .dropdown-menu ul li {
-    line-height: 1.7;
-    display: inline-block;
+table th, table td{
+    padding-right: 30px;
+    padding-bottom: 5px;
 }
-
-header nav ul li.dropdown .dropdown-menu ul li:first-child a {
-    display: block;
-    margin-bottom: 10px;
-    border-bottom: 1px dotted #7b5244;
-
+table th span{
+    border-bottom: 1px dashed #7b5244;
+    padding-bottom: 1px;
 }
 
 header .user {
